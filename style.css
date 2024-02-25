@@ -1,0 +1,593 @@
+.kkk{margin: 0px 0px 50px;}
+.home{
+
+    height: 80%;
+    
+background-image:url("Icons/drew-coffman-1872.jpg") ;
+background-size: cover ;
+background-position: center center;
+
+}
+body{
+   margin: 0;
+}
+.container{
+    overflow: auto;
+}
+ 
+
+.container ul{
+   float: right;
+    list-style-type: none;
+    padding: 20px 300px 0px 0px;
+}
+.container ul li{
+    display: inline-block;
+padding: 5px 10px;
+font-size: 20px;
+cursor: pointer;
+color: white;
+
+}
+ img {
+   width: 200px;
+ float: left;
+margin-left: 300px;
+padding: 20px 0px 0px 0px ;
+   
+}
+.content{
+    height: 100%;
+    text-align: center;
+    padding: 180px;
+    
+}
+.content p{font-size: 25px;
+    color: rgba(255,255,255, .92);
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align-last:center ;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-top: 0;
+}
+.content h1{
+color: white;
+font-size: 76px;
+font-family: 'Alegreya Sans', sans-serif;
+margin-bottom: 18px;
+letter-spacing: 1px;
+word-spacing: 2px;
+font-weight: bold;
+margin-top: 0;
+
+}
+.but{
+    padding: 20px 40px ;
+    border-radius: 5px 5px ; 
+    margin: bottom 30px;
+}
+.but1{
+    background-color: #8e7754;
+    font-size: 16px;
+    color: white;
+    border: solid  #8e7754;
+    cursor: pointer;
+}
+.but2{
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    border-color: white;
+    border: solid;
+    cursor: pointer;
+
+}
+.but3{
+    background-image: url(Icons/giphy\ \(1\).gif);
+    padding: 20px 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 40%;
+    margin: top 50px;
+    cursor: pointer;
+     
+ 
+
+}
+
+
+
+ .content p.xdata{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align-last:center ;
+    line-height: 40px;
+    
+}
+.who{
+    margin: 0 -15px 0 -15;
+    padding: 90px 54px 60px 54px;
+ text-align: center;    
+}
+.data{
+    display: inline-block;
+    margin: 0;
+    margin-left: 25px;
+    padding: 20px 15px 0 15px;
+    width: 535px;min-height:535px ;
+vertical-align: top;
+text-align: left;
+
+}
+
+.img2{
+    background-image:url(Icons/alexandru-stavrica.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    width: 535px;min-height:535px ;
+    margin: 0;
+    padding: 0;
+    padding-right: 25px;
+    display: inline-block;
+
+
+}
+.who h1{
+    font-family: 'Alegreya Sans', sans-serif;
+font-size:32px;	
+line-height:44.16px;
+
+word-spacing:0px;
+margin:0px 0px 25px;
+padding:0;
+font-weight:400;
+color:#303030;
+
+}
+.who p{
+    font-family: 'Alegreya Sans', sans-serif;
+    color:#686868;
+    font-size:17px;
+    line-height:31.62px;
+    font-weight:400;
+    display: inline-block;
+    vertical-align:bottom;
+}
+.icons ul{
+    list-style-type:none; ;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 30px 0 ;
+}
+.icons li p{
+    display: inline;
+}
+.icons li{
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.butt{
+    border-radius:100% ;
+    width: 42px;
+    height: 42px;
+    vertical-align: top;
+  
+}
+.butt1{
+    background-image: url(Icons/leaf.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    border: 1px solid  #68686842 ;
+    margin-right: 10px;
+
+}
+.butt2{
+    background-image: url(Icons/people.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    border: 1px solid  #68686842 ;
+    margin-right: 10px;
+    display: inline-block;
+
+}
+.butt3{
+    background-image: url(Icons/heart.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    border: 1px solid #68686842 ;
+    margin-right: 10px;
+
+}
+.butt4{
+    background-image: url(Icons/check.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    border: 1px solid  #68686842 ;
+    margin-right: 10px;
+
+}
+.icons li{
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+}
+.ourloc p{
+    color:#686868;
+    font-size:17px;
+    line-height:31.62px;
+    font-weight:400;
+    display: inline-block;
+    margin: 0 0 30px 0; 
+    /* vertical-align:bottom; */
+}
+.ourloc h1{
+    
+ font-family: 'Alegreya Sans', sans-serif;
+    font-size:32px;	
+    line-height:44.16px;
+    
+    word-spacing:0px;
+    margin:0px 0 3 h0px 0 ;
+    padding:0;
+    font-weight:400;
+    color:#303030;
+   
+}
+.location{background-color: #f8f8f8;
+
+    text-align: center ;
+    
+   
+padding: 90px 53.500px;
+margin: 0 -15px;
+}
+.ourloc{
+    width: 565px;height: 277px;
+    display: inline-block;
+    padding: 80px 15px 0px;
+    margin-left:30 ;
+    vertical-align:top;
+    text-align: left
+}
+.img3{
+    background-image: url(Icons/full-2.jpg);
+
+
+}
+.item{
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+
+}
+.item img{
+    display: block;
+    margin: 30px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+.ourprod{
+    text-align: center;
+ padding: 0 15px;
+ overflow: auto;float: left;
+ 
+}
+
+.zxc{
+    clear: both;;
+
+}
+.item .dataitem{
+display: inline-block;
+padding: 0 0 0 50px; ;
+
+}
+.ourprod .ourbaking h1{color: #303030;
+    font-family:'Alegreya Sans', sans-serif;
+    font-size:30px;
+    line-height:41.4px;
+    font-weight:400;
+    margin: 50px 0 0 0 ;
+}
+.ourbaking p{
+    color: #888888;
+    line-height:31.62px;
+    margin:17px 245px 0px;
+    font-family:'Alegreya Sans', sans-serif;
+
+    font-weight:400;
+}
+.item h2{color: #303030;
+    font-size:22px;
+    line-height:30.36px;
+    font-family:'Alegreya Sans', sans-serif;
+
+    font-weight:400;
+}
+.item p{color:  #686868;
+    font-size:17px;
+    line-height:31.62px;
+    font-weight:400;
+    font-family:'Alegreya Sans', sans-serif;
+}
+
+.ourinfo{ 
+   
+    padding: 90px 40px 90px 230px;
+    overflow:auto;
+    background-color: #d5cec413;
+}
+.ourinfo li p{display: inline-block;
+    text-align: left;
+    
+}
+
+.ourinfo ul{
+  text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding:  0;
+}
+
+.info{ float: left;
+    width: 40%;
+padding: 0;
+margin: 0;
+}
+
+.info p{
+    color:  #686868;
+    font-size:17px;
+    line-height:31.62px;
+    font-weight:400;
+    display: inline;
+    font-family:'Alegreya Sans', sans-serif;
+}
+
+
+.info h1{
+    color:#303030;
+    font-size:32px;
+    line-height:44.16px;
+    margin:0px 0px 25px;
+    font-family:'Alegreya Sans', sans-serif;
+}
+.buttin{
+    border-radius:100% ;
+    width: 42px;
+    height: 42px;
+    vertical-align: top;
+    display: inline;
+    padding: 0;
+  
+}
+.info1{background-size: cover;
+    background-image: url(Icons/map.png);
+    background-position: center center;
+    background-color: #8e7754;
+    border: 1px solid #8e7754 ;
+    margin-right: 10px;
+}
+.info2{
+    background-size: cover;
+    background-image: url(Icons/phone.png);
+    background-position: center center;
+    background-color: #8e7754;
+    border: 1px solid #8e7754 ;
+    margin-right: 10px;
+}
+.info3{background-size: cover;
+    background-image: url(Icons/headphone.png);
+    background-position: center center;
+    background-color: #8e7754;
+    border: 1px solid #8e7754 ;
+    margin-right: 10px;
+}
+.info4{background-size: cover;
+    background-image: url(Icons/email.png);
+
+    background-position: center center;
+    background-color:  #8e7754;
+    border: 1px solid #8e7754 ;
+    margin-right: 10px;
+    
+}
+iframe{
+    width: 100% ; /* background-color: red; */
+     height: 516px;
+}
+.ifram p {margin:30px 0 0  0;
+    padding: 30px 0 0 0 ;
+
+}
+.ifram{
+    float: left; 
+    /* background-color: yellow; */
+    padding: 20px 0 0 50px;
+    width: 45%;
+
+overflow: auto;
+}
+
+.final{background-color:#403d38 ;
+    padding: 60px 100px 52px 150px  ;
+overflow: auto;
+text-align: center;
+height: 50%;
+margin: 0;
+
+}
+.sec{width: 20%;
+float:left ;
+padding: 0 15px;display: inline;
+text-align: left;
+
+}
+.sec hr{
+      color:#96969686;
+      background-color: #9696965a;
+   
+}
+.sec h3{
+    color:#FFFFFF;
+    line-height:24.84px;
+    font-size:18px;
+     margin:   0 0px 25px;
+     font-weight:400;
+     font-family:'Alegreya Sans', sans-serif;
+    text-align: left;
+}
+.sec p{
+    font-family:'Alegreya Sans', sans-serif;
+    color:#969696;
+    line-height:29.76px;
+    font-size:16px;
+    margin:0px 0px 20px;
+    font-weight:400;
+    display: inline;
+    text-align: left;
+}
+.sec ul{
+    list-style-type: none;
+    text-align: left;
+padding:0; 
+margin: 0;
+}
+.sec li{
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+   
+    padding: 10px 0 ;
+    overflow: auto;
+}
+
+.button{
+    background-size: cover;
+    background-image: url(Icons/arrow.png);
+    background-position: center center;
+    background-color: transparent;
+    border: transparent ;
+    margin-right: 10px;
+    border-radius:100% ;
+    width:15px;
+    height: 15px;
+    display: inline;
+    padding: 0;
+  
+}
+.button p{
+    display: inline;
+}
+.sec4{
+    background-image: url(Icons/t-details-map.png)  ;
+    background-size: contain;
+    background-position: center center;
+    
+}
+
+.button1 {
+background-image: url(Icons/location.png);
+width: 30px;
+height: 30px;
+padding: 0;
+display: inline;
+}
+.button2 {background-image: url(Icons/phone-gray.png);
+    width: 30px;
+    height: 30px;
+padding: 0;
+
+display: inline;}
+.button3 { background-image: url(Icons/email.png);
+    width: 30px;
+    height: 30px;
+    margin: 0;
+
+
+display: inline;    padding: 0;
+}
+.button4 {background-image: url(Icons/earth.png);
+    width: 30px;
+    height: 30px;
+    padding: 0
+;
+display: inline;
+ }
+ .bakery{
+    height: 60%;
+    width: 100%;
+    background-color: #353330;
+    overflow: auto;
+padding:  80px 0 0 0;
+ }
+ .bake{
+    text-align: center;
+    overflow: auto;
+ }
+ .bakery-light-1{ overflow: auto;
+background-image: url(Icons/bakery-light-1.png);
+height: 96px;
+width: 353px;
+margin-left: auto;
+margin-right: auto;
+background-repeat:no-repeat ;
+background-size:contain ;
+overflow: auto;
+
+ }
+ .bake p{
+    font-family:'Alegreya Sans', sans-serif;
+    color:#969696;
+    line-height:29.76px;
+    font-size:16px;
+    margin:20px 0px 0 0px;
+    font-weight:400;
+    display: inline;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    
+ }
+ .sial{
+    border-radius:100% ;
+    width: 42px;
+    height: 42px;
+    vertical-align: top;
+    background-color: #484540;
+ border: transparent;
+margin: 20px 0 0 0;
+ }
+ .sial1{
+    background-image: url(Icons/facebook.png);
+    background-position: center center;
+    background-size: contain;
+ }
+ .sial2{
+    background-image: url(Icons/google.png);
+    background-position: center center;
+    background-size: contain;
+ }
+ .sial3{
+    background-image: url(Icons/email-solid.png);
+    background-position: center center;
+    background-size: contain;
+ }
+ .sial4{
+    background-image: url(Icons/linkedin.png);
+    background-position: center center;
+    background-size: contain;
+ }
